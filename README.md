@@ -17,10 +17,10 @@ For use with the Coloradar dataset please install the desired dataset from [here
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install [tempEgo](https://pypi.org/project/tempEgo/).
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install [tempEgo3D](https://pypi.org/project/tempEgo3D/).
 
 ```bash
-pip install tempEgo
+pip install tempEgo3D
 ```
 or
 
@@ -28,8 +28,8 @@ Clone the Github Repository
 
 Prereq: [Git installation](https://github.com/git-guides/install-git)
 ```bash
-git clone https://github.com/samuelLovett/tempEgo.git
-cd tempEgo
+git clone https://github.com/samuelLovett/tempEgo3D.git
+cd tempEgo3D
 pip install .
 ```
 

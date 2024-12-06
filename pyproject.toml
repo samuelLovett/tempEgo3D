@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tempEgo3D"
+version = "0.1.0"
+dependencies = [
+        "numpy>=1.23.1",
+        "scipy>=1.10.1"
+]
+requires-python = ">=3.10"
+authors = [
+  { name="Samuel Lovett", email="samuellovett@cmail.carleton.ca" },
+]
+description = "A package for estimating 3D ego-motion velocity using millimetre-wave (mmWave) radar."
+readme = "README.md"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/samuelLovett/tempEgo3D.git"
